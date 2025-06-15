@@ -1,68 +1,91 @@
-\chapter{Literature Review}
-\label{chap:lr}
+\chapter{System Model}
+\label{chap:systemModel}
 \chaptermark{Second Chapter Heading}
 
+Let us formally describe the necessary definitions and assumptions for an addressed heterogeneous scheduling problem. We consider scheduling over ARM \textsf{\textsc{big}}.\textsf{LITTLE} platform, which is introduced in Chapter~\ref{chap:intro}. However, to keep our analysis simpler, for now we restrict the platform to the case of two cores only:
+%
+\begin{itemize}
+\item The \textsf{\textsc{big}} core \-- fast but energy-hungry;
+\item The \textsf{LITTLE} core \-- slow but energy-efficient;
+\end{itemize}
+%
+We assume every core to execute only one program at a time. We also consider no hardware-level parallelism and other optimisations at the moment.
 
-\Blindtext[2]
+\section{Mathematical notations}
 
-\section{Another Section}
-\Blindtext[1]
-\newpage
-With the widespread of computing systems, information processing, and net working, the practice of replacing paper documentation to electronic documentation has become more and more common. Electronic documentation within the workplace has several advantages over the traditional one, such as being easy to share, copy and edit the document. However, these advantages also present a problem. A malefactor, having access to the system, can easily copy and leak the document, without leaving any trace. Such actions are virtually undetectable in most systems, so, the malefactor goes unpunished. In this thesis, we propose one solution to the problem: digital watermarking. 
+We have $N$ programs, which are denoted by $P_1,\ldots,P_N$, to be executed concurrently over a shared \textsf{\textsc{big}}.\textsf{LITTLE} platform of $\mathcal{M}$ cores\footnote{In our analysis, $\mathcal{M}=2$: one \textsf{\textsc{big}} and one \textsf{LITTLE} cores}. These programs arrive asynchronously into a pending queue as depicted in Fig.~\ref{fig:heteroExampleOverview}. Then, at scheduling time instants a heterogeneous scheduler examines this queue and allocates available cores to the programs. The scheduler aims at optimizing a scheduling objective, which we define later. 
 
-Every electronic document within the protected system is marked with an invisible digital watermark, containing information about the user, accessing this particular document. Therefore, in case the protected company discovers the leaked document, they will be able to identify the machine of the malicious person and time when the document was leaked. This will allow inflicting punishment on the malefactor, recovering the costs of the leak, and potentially preventing future ones. 
+Every program $P_i=\{b_{i1},\ldots,b_{in_i}\}$, with each block representing a sequence of instructions. In our analysis, a program is executed block by block as depicted in Fig.~\ref{fig:s1} and~\ref{fig:s2}.
+%
+Block's $b_j$ processing requirements, if executing over an $m$-type core are modeled by:
+%
+\begin{itemize}
+\item $T_{jm}$ \-- block execution time;
+\smallskip
+\item $E_{jm}$ \-- block energy consumption,
+\end{itemize}
+%
+These metrics are typically collected by profiling tools, such as $\textsc{Perf}$. Thus, we consider these metrics to be known prior to our analysis, e.g. like an example in Table~\ref{tab:demandExample}.
 
-\begin{longtable}{c|c}
-\caption[This is the title I want to appear in the List of Tables]{Simulation Parameters} \label{table:secsimulation_params} \\
-\hline
-A & B  \\
-\hline
-\endfirsthead
-\multicolumn{2}{@{}l}{} \\
-\hline
-A & B \\
-\hline
-\endhead
-\hline
- \textbf{Parameter} & \textbf{Value}\\
- \hline
- Number of vehicles & $|\mathcal{V}|$\\
- \hline
- Number of RSUs & $|\mathcal{U}|$\\
- \hline
- RSU coverage radius & 150 m\\
- \hline
- V2V communication radius & 30 m\\
- \hline
- Smart vehicle antenna height & 1.5 m\\
- \hline
- RSU antenna height & 25 m\\
- \hline
- Smart vehicle maximum speed & $v_{max}$ m/s\\
- \hline
- Smart vehicle minimum speed & $v_{min}$ m/s\\
- \hline
- Common smart vehicle cache capacities & $[50, 100, 150, 200, 250]$ mb\\
- \hline
- Common RSU cache capacities & $[5000,1000,1500,2000,2500]$ mb\\
- \hline
- Common backhaul rates & $[75, 100, 150]$ mb/s\\
- \hline
-\end{longtable}
 
-\begin{figure}[hbt]
-\centering
-\includegraphics[]{figs/images.png}
-\caption{One kernel at $x_s$ (\emph{dotted kernel}) or two kernels at
-$x_i$ and $x_j$ (\textit{left and right}) lead to the same summed estimate
-at $x_s$. This shows a figure consisting of different types of
-lines. Elements of the figure described in the caption should be set in
-italics, in parentheses, as shown in this sample caption.}
-\label{fig:secex}
-\end{figure}
+For a given program $P_i$, parameters $\mathsf{T}_m$ and $\mathsf{E}_m$ denote its total runtime and energy consumption over $m$-type core, which are computed over all its blocks by:
+%
+\begin{minipage}{0.46\columnwidth}
+\smallskip
+\begin{equation}
+\mathsf{T}^i_m=\sum_{j=1}^{n}{T_{jm}}
+\end{equation}
+\smallskip
+\end{minipage}%
+\begin{minipage}{.5\columnwidth}
+\smallskip
+\begin{equation}
+\mathsf{E}^i_m=\sum_{j=1}^{n}{E_{jm}}
+\end{equation}
+\smallskip
+\end{minipage}
 
-This description implies several essential properties of the task at hand:
-\begin{enumerate}
-    \item Watermark must contain all necessary information, but still, be placeable and recognizable even on smaller images. The produced watermark must be compact but have the possibility to store enough information. 
-    \item To prevent easy tampering, the watermark must be invisible to the naked eye (and, preferably, to basic image parsing tools). If malefactor does not know about the existence of watermark, they might not even try to remove it and disable it. 
-\end{enumerate}
+
+Considering execution requirements of every $P_1,\ldots,P_n$ programs are known, our key objective is to minimize the so-called ``energy-delay product'' metric \cite{Ratkovic2015}, which is denoted by $\uprho$ and computed by:
+%
+\begin{equation}
+\uprho = \mathsf{T} * \mathsf{E}
+\end{equation}
+%
+where $\mathsf{T}$ and $\mathsf{E}$ denote the aggregated runtime and energy consumption of all simultaneously executed programs:
+
+\begin{minipage}{0.4\columnwidth}
+\smallskip
+\begin{equation}
+\mathsf{T}=\sum_{i=1}^N{T^i_{\left(m_1\dots m_{n_i}\right)}}
+\end{equation}
+\smallskip
+\end{minipage}%
+\begin{minipage}{.4\columnwidth}
+\smallskip
+\begin{equation}
+\mathsf{E}=\sum_{i=1}^N{E^i_{\left(m_1\dots m_{n_i}\right)}}
+\end{equation}
+\smallskip
+\end{minipage}
+
+where $\left(m_1\dots m_{n_i}\right)$ denotes a sequence of $n_i$ blocks of program $P_i$ executed over cores $m_j\in \{1,\ldots, \mathcal{M}\}$. In fact, we aim at determining all those sequences, which result in a program execution with an optimal trade-off between runtime and energy consumption.
+%more details on computing $\uprho$ are provided in Section~\ref{sec:energyDelayProduct}.
+%\todo{add motivational example probably referring to some figure}
+
+We also study scheduling efficiency for minimum average response time and energy consumption in isolation in Chapter~\ref{chap:efficiencyMetrics}.
+
+Additionally, for the analysis simplicity, we assume that:
+%
+\begin{itemize}
+\item Granularity unit for our analysis is one program block;
+\item Two programs cannot reuse the same core at a time;
+\item Blocks within a given program execute sequentially;
+\item Hardware overheads are insignificant (see Section~\ref{sec:performanceOverheads});
+\item Block execution can be preempted and migrated between cores (see Section~\ref{sec:schedulingTypes}).
+%All program blocks execute sequentially that is block $B_{i,{j+1}}$ starts when $B_{i,j}$ completes.
+\end{itemize}
+%
+We aim at gradually relaxing these assumptions in the future.
+
+

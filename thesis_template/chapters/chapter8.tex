@@ -1,0 +1,10 @@
+\chapter{Conclusion}
+\label{chap:conclusion}
+
+We tackled the problem of an efficient heterogeneous scheduling by considering both programs response times and energy consumption. We proposed several schedulers, which are an optimal one, and heuristics: random walk and greedy. Our key contribution is the consideration of energy consumption, unlike other existing schedulers, such as HEFT and HASS.
+
+\section{Detailed contribution}
+
+Behind our schedulers is the traversal of a programs state-transition graph. An optimal scheduler needs to traverse an entire huge in size graph, requiring a significant computation time. Heuristics traverse only selected graph fragments aiming at computation time reduction, but produce less efficient schedules. To examine schedulers efficiency, we implemented a C++ Scheduler tool to model concurrent execution of input programs. We also implemented the tool for generating input programs parameters to run experiments. The schedulers performance is evaluated through a series of experiments in terms of energy-delay product (EDP), which accounts for both programs response times and consumed energy. We show that 100-random walk is near to an optimal schedule, while greedy shows the worst efficiency. Regarding the runtime, an optimal schedule computation takes orders of magnitude larger time due to an exponential complexity compared to heuristics. The EDP deviation for schedules is 40-50\%, for selected experimental settings. We do not yet consider migration and preemption overheads, what is to be included.
+
+The C++ tools used in this work are available on demand.

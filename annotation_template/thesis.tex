@@ -4,7 +4,7 @@
 
 \usepackage{vmargin}
 \setpapersize{A4}
-\setmarginsrb{2.5cm}{2.2cm}{2.2cm}{2.2cm}{0pt}{10mm}{0pt}{13mm}
+\setmarginsrb{2.5cm}{2cm}{2cm}{2cm}{0pt}{10mm}{0pt}{13mm}
 \usepackage{setspace}
 \sloppy
 \setstretch{1.5}
@@ -63,7 +63,8 @@
 \usepackage{bm}
 \usepackage{hyperref}
 \usepackage{longtable}
-\usepackage[font=singlespacing, labelfont=bf]{caption}
+\usepackage{makecell}
+\usepackage[font=singlespacing, labelfont=bf, justification=raggedright, singlelinecheck = false]{caption}
 \usepackage{floatrow}
 
 \pagestyle{fancyplain}
@@ -91,7 +92,7 @@
 
 \begin{document}
 
-\includepdf[offset=2.5cm -2.2cm]{title.pdf}
+\includepdf[offset=2.5cm -2cm]{title.pdf}
 
 \newpage
 \tableofcontents
@@ -106,12 +107,12 @@
 % In your annotation the counter number can be different, please count carefully and insert the corresponding number.
 
 \include{chapters/chapter1}
-\include{chapters/chapter2}
+%\include{chapters/chapter2}
 \include{chapters/chapter3}
 \include{chapters/chapter4}
 \include{chapters/chapter5}
 
-
+\nocite{*}
 \printbibliography[heading=bibintoc,title={Список использованной литературы}]
 \end{document}
 

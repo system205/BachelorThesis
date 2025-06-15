@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.14)  2 JUN 2025 14:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.14)  9 JUN 2025 15:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2078,18 +2078,24 @@ Package: longtable 2024-04-26 v4.20 Multi-page Table package (DPC)
 \c@LT@chunks=\count487
 \LT@p@ftn=\toks41
 )
+(c:/texlive/2024/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen257
+\c@nlinenum=\count488
+\TeXr@lab=\toks42
+)
 (c:/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\enitkv@toks@=\toks42
+\enitkv@toks@=\toks43
 \labelindent=\skip105
-\enit@outerparindent=\dimen257
-\enit@toks=\toks43
+\enit@outerparindent=\dimen258
+\enit@toks=\toks44
 \enit@inbox=\box68
-\enit@count@id=\count488
-\enitdp@description=\count489
+\enit@count@id=\count489
+\enitdp@description=\count490
 )
-\c@inlinelisti=\count490
-\enitdp@inlinelist=\count491
+\c@inlinelisti=\count491
+\enitdp@inlinelist=\count492
 
 (c:/texlive/2024/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
@@ -2098,69 +2104,73 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-
-No file thesis.aux.
+ (./thesis.aux
+(./chapters/abstract.aux) (./chapters/chapter1.aux) (./chapters/chapter2.aux)
+(./chapters/chapter3.aux) (./chapters/chapter4.aux) (./chapters/chapter5.aux)
+(./chapters/chapter6.aux) (./chapters/chapter7.aux) (./chapters/chapter8.aux)
+(./chapters/appex.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OT2/cmr/m/n on input line 123.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OT2/cmr/m/n on input line 124.
 LaTeX Font Info:    Trying to load font information for OT2+cmr on input line 1
-23.
+24.
+
 (c:/texlive/2024/texmf-dist/tex/latex/cyrillic/ot2cmr.fd
 File: ot2cmr.fd 2001/08/11 v3.2c Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for T2C/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for T2C/cmr/m/n on input line 124.
 LaTeX Font Info:    Trying to load font information for T2C+cmr on input line 1
-23.
+24.
 
 (c:/texlive/2024/texmf-dist/tex/latex/cyrillic/t2ccmr.fd
 File: t2ccmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for T2B/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for T2B/cmr/m/n on input line 124.
 LaTeX Font Info:    Trying to load font information for T2B+cmr on input line 1
-23.
+24.
 
 (c:/texlive/2024/texmf-dist/tex/latex/cyrillic/t2bcmr.fd
 File: t2bcmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 124.
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
-23.
+24.
 
 (c:/texlive/2024/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 124.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 1
-23.
+24.
 
 (c:/texlive/2024/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-\c@mv@tabular=\count492
-\c@mv@boldtabular=\count493
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+\c@mv@tabular=\count493
+\c@mv@boldtabular=\count494
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -2173,24 +2183,24 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `thesis.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'thesis.bbl' not found.
+Package biblatex Info: ... file 'thesis.bbl' found.
+ (./thesis.bbl)
+Package biblatex Info: Reference section=0 on input line 124.
+Package biblatex Info: Reference segment=0 on input line 124.
 
-No file thesis.bbl.
-Package biblatex Info: Reference section=0 on input line 123.
-Package biblatex Info: Reference segment=0 on input line 123.
 (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count494
-\scratchdimen=\dimen258
+\scratchcounter=\count495
+\scratchdimen=\dimen259
 \scratchbox=\box69
-\nofMPsegments=\count495
-\nofMParguments=\count496
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count497
-\MPscratchDim=\dimen259
-\MPnumerator=\count498
-\makeMPintoPDFobject=\count499
-\everyMPtoPDFconversion=\toks45
+\nofMPsegments=\count496
+\nofMParguments=\count497
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count498
+\MPscratchDim=\dimen260
+\MPnumerator=\count499
+\makeMPintoPDFobject=\count500
+\everyMPtoPDFconversion=\toks46
 ) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -2221,19 +2231,21 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 123.
+Package hyperref Info: Link coloring ON on input line 124.
+ (./thesis.out)
+(./thesis.out)
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
 
-\c@lstlisting=\count500
+\c@lstlisting=\count501
 
 
 pdfTeX warning: pdflatex.exe (file ./title.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<title.pdf, id=4, 597.55246pt x 845.07718pt>
+<title.pdf, id=128, 597.55246pt x 845.07718pt>
 File: title.pdf Graphic file (type pdf)
 <use title.pdf>
-Package pdftex.def Info: title.pdf  used on input line 125.
+Package pdftex.def Info: title.pdf  used on input line 126.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -2241,7 +2253,7 @@ pdfTeX warning: pdflatex.exe (file ./title.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
 File: title.pdf Graphic file (type pdf)
 <use title.pdf>
-Package pdftex.def Info: title.pdf  used on input line 125.
+Package pdftex.def Info: title.pdf  used on input line 126.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -2251,72 +2263,100 @@ on <1.6>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./title.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<title.pdf, id=7, page=1, 597.55246pt x 845.07718pt>
+<title.pdf, id=131, page=1, 597.55246pt x 845.07718pt>
 File: title.pdf Graphic file (type pdf)
 <use title.pdf, page 1>
-Package pdftex.def Info: title.pdf , page1 used on input line 125.
+Package pdftex.def Info: title.pdf , page1 used on input line 126.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: title.pdf Graphic file (type pdf)
 <use title.pdf, page 1>
-Package pdftex.def Info: title.pdf , page1 used on input line 125.
+Package pdftex.def Info: title.pdf , page1 used on input line 126.
 (pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
 File: title.pdf Graphic file (type pdf)
 <use title.pdf, page 1>
-Package pdftex.def Info: title.pdf , page1 used on input line 125.
+Package pdftex.def Info: title.pdf , page1 used on input line 126.
 (pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
 File: title.pdf Graphic file (type pdf)
 <use title.pdf, page 1>
-Package pdftex.def Info: title.pdf , page1 used on input line 125.
+Package pdftex.def Info: title.pdf , page1 used on input line 126.
 (pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
 
 
 File: title.pdf Graphic file (type pdf)
 <use title.pdf, page 1>
-Package pdftex.def Info: title.pdf , page1 used on input line 125.
+Package pdftex.def Info: title.pdf , page1 used on input line 126.
 (pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
 [1
 
 
  <./title.pdf>]
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 35.83pt on input line 126.
+(Font)              scaled to size 35.83pt on input line 127.
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
-(Font)              scaled to size 35.83pt on input line 126.
+(Font)              scaled to size 35.83pt on input line 127.
+ (./thesis.toc
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
+(Font)              scaled to size 14.4pt on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
-No file thesis.toc.
+(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+
+(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
+(Font)              scaled to size 14.4pt on input line 3.
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 3.
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
+(Font)              scaled to size 7.0pt on input line 3.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 3.
+
+
+(c:/texlive/2024/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+
+[2
+
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/
+texmf-dist/fonts/enc/dvips/tempora/t2a-tempora.enc}])
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
 
 
-[2
-
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/
-texmf-dist/fonts/enc/dvips/tempora/t2a-tempora.enc}]
-No file thesis.lot.
+[3] (./thesis.lot)
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
 
 
-[3
+[4
 
-]
-No file thesis.lof.
+] (./thesis.lof
+Overfull \hbox (1.20085pt too wide) in paragraph at lines 4--4
+ [][] [][][]\T2A/Tempora-TLF/m/n/14.4 Heterogeneous ar-chi-tec-ture: ex-am-ple 
+with Cortex-A15 and Cortex- 
+ []
+
+
+
+[5
+
+])
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
 
 
-[4
-
-]
+[6]
 \openout2 = `chapters/abstract.aux'.
 
  (./chapters/abstract.tex
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 1.
-
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
@@ -2336,279 +2376,615 @@ LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
 (Font)              scaled to size 29.86pt on input line 1.
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 4.
+(Font)              scaled to size 10.0pt on input line 5.
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
+(Font)              scaled to size 5.0pt on input line 5.
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 5.
+LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 
+5.
+(c:/texlive/2024/texmf-dist/tex/latex/cyrillic/t2acmss.fd
+File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
+(Font)              scaled to size 20.74pt on input line 7.
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 4.
-
-LaTeX Warning: Citation 'A' on page 7 undefined on input line 7.
+(Font)              scaled to size 20.74pt on input line 7.
 
 
-LaTeX Warning: Citation 'A' on page 7 undefined on input line 7.
+[8
 
 
-LaTeX Warning: Citation 'B' on page 7 undefined on input line 7.
 
 
-LaTeX Warning: Citation 'C' on page 7 undefined on input line 7.
+{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}]
+LaTeX Font Info:    Trying to load font information for TS1+Tempora-TLF on inpu
+t line 11.
 
-
-LaTeX Warning: Reference `sec:subsection' on page 7 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'D' on page 7 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'F' on page 7 undefined on input line 7.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
-(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+(c:/texlive/2024/texmf-dist/tex/latex/tempora/TS1Tempora-TLF.fd
+File: TS1Tempora-TLF.fd 2016/02/02 (autoinst) Font definitions for TS1/Tempora-
+TLF.
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
+LaTeX Font Info:    Font shape `TS1/Tempora-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 11.
 
-(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+Overfull \hbox (6.80229pt too wide) in paragraph at lines 17--21
+\T2A/Tempora-TLF/m/n/14.4 Observe the per-for-mance com-par-i-son of ``big" (Co
+rtex-A15) and ``LIT-TLE" (Cortex-
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/heteroExampleOverview.pdf): PDF inclu
+sion: found PDF version <1.6>, but at most version <1.5> allowed
+<figs/heteroExampleOverview.pdf, id=304, 412.84236pt x 394.28796pt>
+File: figs/heteroExampleOverview.pdf Graphic file (type pdf)
+<use figs/heteroExampleOverview.pdf>
+Package pdftex.def Info: figs/heteroExampleOverview.pdf  used on input line 24.
+
+(pdftex.def)             Requested size: 235.05533pt x 224.49377pt.
+
+
+[9{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tempora/tmp_ac5xuc.enc}]
+
+pdfTeX warning: pdflatex.exe (file ./figs/bigLITTLEArchitecture.pdf): PDF inclu
+sion: found PDF version <1.6>, but at most version <1.5> allowed
+<figs/bigLITTLEArchitecture.pdf, id=316, 545.37602pt x 271.03058pt>
+File: figs/bigLITTLEArchitecture.pdf Graphic file (type pdf)
+<use figs/bigLITTLEArchitecture.pdf>
+Package pdftex.def Info: figs/bigLITTLEArchitecture.pdf  used on input line 54.
+
+(pdftex.def)             Requested size: 399.59694pt x 198.59508pt.
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 56.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/CortexA15vsA7Comparison.pdf): PDF inc
+lusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figs/CortexA15vsA7Comparison.pdf, id=317, 257.07674pt x 257.07643pt>
+File: figs/CortexA15vsA7Comparison.pdf Graphic file (type pdf)
+<use figs/CortexA15vsA7Comparison.pdf>
+Package pdftex.def Info: figs/CortexA15vsA7Comparison.pdf  used on input line 6
+1.
+(pdftex.def)             Requested size: 178.63875pt x 178.64601pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/notation.pdf): PDF inclusion: found P
+DF version <1.6>, but at most version <1.5> allowed
+<figs/notation.pdf, id=318, 83.87636pt x 120.27434pt>
+File: figs/notation.pdf Graphic file (type pdf)
+<use figs/notation.pdf>
+Package pdftex.def Info: figs/notation.pdf  used on input line 71.
+(pdftex.def)             Requested size: 84.61647pt x 121.33662pt.
+
+
+[10 <./figs/heteroExampleOverview.pdf, page is rotated 90 degrees>]
+
+[11 <./figs/bigLITTLEArchitecture.pdf, page is rotated 90 degrees> <./figs/Cort
+exA15vsA7Comparison.pdf, page is rotated 90 degrees> <./figs/notation.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./figs/s1.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<figs/s1.pdf, id=428, 304.11417pt x 139.79227pt>
+File: figs/s1.pdf Graphic file (type pdf)
+<use figs/s1.pdf>
+Package pdftex.def Info: figs/s1.pdf  used on input line 96.
+(pdftex.def)             Requested size: 329.07603pt x 151.27412pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/s1Metrics.pdf): PDF inclusion: found 
+PDF version <1.6>, but at most version <1.5> allowed
+<figs/s1Metrics.pdf, id=429, 534.11092pt x 137.83516pt>
+File: figs/s1Metrics.pdf Graphic file (type pdf)
+<use figs/s1Metrics.pdf>
+Package pdftex.def Info: figs/s1Metrics.pdf  used on input line 104.
+(pdftex.def)             Requested size: 329.07603pt x 84.92479pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/s2.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<figs/s2.pdf, id=430, 304.11417pt x 140.32024pt>
+File: figs/s2.pdf Graphic file (type pdf)
+<use figs/s2.pdf>
+Package pdftex.def Info: figs/s2.pdf  used on input line 113.
+(pdftex.def)             Requested size: 329.07603pt x 151.84547pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/s2Metrics.pdf): PDF inclusion: found 
+PDF version <1.6>, but at most version <1.5> allowed
+<figs/s2Metrics.pdf, id=431, 534.11092pt x 139.82338pt>
+File: figs/s2Metrics.pdf Graphic file (type pdf)
+<use figs/s2Metrics.pdf>
+Package pdftex.def Info: figs/s2Metrics.pdf  used on input line 120.
+(pdftex.def)             Requested size: 329.07603pt x 86.14981pt.
 )
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
-(Font)              scaled to size 14.4pt on input line 7.
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 7.
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
-(Font)              scaled to size 7.0pt on input line 7.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 7.
 
+[12]
 
-(c:/texlive/2024/texmf-dist/tex/latex/base/ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 7.
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
-(Font)              scaled to size 5.0pt on input line 7.
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 7.
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 9.
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 9.
+[13 <./figs/s1.pdf> <./figs/s1Metrics.pdf, page is rotated 90 degrees> <./figs/
+s2.pdf> <./figs/s2Metrics.pdf, page is rotated 90 degrees>]
 
-
-[7
-
-
-
-
-]
-<figs/images.png, id=72, 224.84pt x 224.84pt>
-File: figs/images.png Graphic file (type png)
-<use figs/images.png>
-Package pdftex.def Info: figs/images.png  used on input line 26.
-(pdftex.def)             Requested size: 224.83945pt x 224.83945pt.
-
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 1.1 on input line 60.
-
-
-
-[8]
-
-LaTeX Warning: Reference `eq:name' on page 9 undefined on input line 67.
-
-
-
-[9 <./figs/images.png>]
-
-LaTeX Warning: Reference `thm:onlytheorem' on page 10 undefined on input line 8
-4.
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (32.0976pt): 
-(fancyhdr)                Make it at least 32.20883pt, for example:
-(fancyhdr)                \setlength{\headheight}{32.20883pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.11124pt}.
-
-[10])
-
-[11]
+[14]
 \openout2 = `chapters/chapter2.aux'.
 
  (./chapters/chapter2.tex
 Chapter 2.
 
+LaTeX Font Warning: Font shape `T2A/cmss/m/sc' in size <14.4> not available
+(Font)              Font shape `T2A/cmr/m/sc' tried instead on input line 5.
 
-[12
+
+LaTeX Font Warning: Font shape `T2A/cmss/m/sc' in size <10> not available
+(Font)              Font shape `T2A/cmr/m/sc' tried instead on input line 16.
+
+
+
+[15
 
 
 
 
 ]
 
-[13]
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 2.1 on input line 51.
-
-[14]
-File: figs/images.png Graphic file (type png)
-<use figs/images.png>
-Package pdftex.def Info: figs/images.png  used on input line 55.
-(pdftex.def)             Requested size: 224.83945pt x 224.83945pt.
+LaTeX Font Warning: Font shape `T2A/Tempora-TLF/m/sc' undefined
+(Font)              using `T2A/Tempora-TLF/m/n' instead on input line 28.
 
 
-[15])
 
-[16]
+[16])
+
+[17]
 \openout2 = `chapters/chapter3.aux'.
 
  (./chapters/chapter3.tex
 Chapter 3.
 
-LaTeX Warning: Reference `chap:lr' on page 17 undefined on input line 4.
+
+pdfTeX warning: pdflatex.exe (file ./figs/singleProcessorExecutionExample.pdf):
+ PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figs/singleProcessorExecutionExample.pdf, id=804, 382.45282pt x 194.12724pt>
+File: figs/singleProcessorExecutionExample.pdf Graphic file (type pdf)
+<use figs/singleProcessorExecutionExample.pdf>
+Package pdftex.def Info: figs/singleProcessorExecutionExample.pdf  used on inpu
+t line 12.
+(pdftex.def)             Requested size: 352.583pt x 178.97244pt.
 
 
-LaTeX Warning: Reference `chap:met' on page 17 undefined on input line 4.
+pdfTeX warning: pdflatex.exe (file ./figs/DVFSExample.pdf): PDF inclusion: foun
+d PDF version <1.6>, but at most version <1.5> allowed
+<figs/DVFSExample.pdf, id=806, 383.46463pt x 217.8007pt>
+File: figs/DVFSExample.pdf Graphic file (type pdf)
+<use figs/DVFSExample.pdf>
+Package pdftex.def Info: figs/DVFSExample.pdf  used on input line 19.
+(pdftex.def)             Requested size: 352.583pt x 200.2727pt.
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
+(Font)              scaled to size 12.0pt on input line 20.
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
+(Font)              scaled to size 8.0pt on input line 20.
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
+(Font)              scaled to size 6.0pt on input line 20.
 
 
-LaTeX Warning: Reference `chap:impl' on page 17 undefined on input line 4.
+pdfTeX warning: pdflatex.exe (file ./figs/multiprocessorExecutionExample.pdf): 
+PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figs/multiprocessorExecutionExample.pdf, id=807, 383.50679pt x 209.42542pt>
+File: figs/multiprocessorExecutionExample.pdf Graphic file (type pdf)
+<use figs/multiprocessorExecutionExample.pdf>
+Package pdftex.def Info: figs/multiprocessorExecutionExample.pdf  used on input
+ line 26.
+(pdftex.def)             Requested size: 352.583pt x 192.53947pt.
+
+LaTeX Warning: Float too large for page by 59.6439pt on input line 36.
 
 
-LaTeX Warning: Reference `chap:eval' on page 17 undefined on input line 4.
+
+pdfTeX warning: pdflatex.exe (file ./figs/singleProcessorExampleRequirements.pd
+f): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figs/singleProcessorExampleRequirements.pdf, id=809, 326.37816pt x 161.67603pt
+>
+File: figs/singleProcessorExampleRequirements.pdf Graphic file (type pdf)
+<use figs/singleProcessorExampleRequirements.pdf>
+Package pdftex.def Info: figs/singleProcessorExampleRequirements.pdf  used on i
+nput line 40.
+(pdftex.def)             Requested size: 305.56906pt x 151.36859pt.
 
 
-LaTeX Warning: Reference `chap:conclusion' on page 17 undefined on input line 4
+[18
+
+
+
+
+]
+
+[19 <./figs/singleProcessorExecutionExample.pdf> <./figs/DVFSExample.pdf> <./fi
+gs/multiprocessorExecutionExample.pdf>]
+
+[20 <./figs/singleProcessorExampleRequirements.pdf, page is rotated 90 degrees>
+]
+
+[21]
+
+pdfTeX warning: pdflatex.exe (file ./figs/s1PreemptionMigration.pdf): PDF inclu
+sion: found PDF version <1.6>, but at most version <1.5> allowed
+<figs/s1PreemptionMigration.pdf, id=1226, 364.9635pt x 140.9266pt>
+File: figs/s1PreemptionMigration.pdf Graphic file (type pdf)
+<use figs/s1PreemptionMigration.pdf>
+Package pdftex.def Info: figs/s1PreemptionMigration.pdf  used on input line 117
 .
+(pdftex.def)             Requested size: 389.60269pt x 150.4502pt.
+
+Overfull \hbox (37.0197pt too wide) in paragraph at lines 116--120
+[][] 
+ []
+
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 127.
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
+(Font)              scaled to size 17.28pt on input line 127.
 
 
-Package longtable Warning: Column widths have changed
-(longtable)                in table 3.1 on input line 41.
+[22 <./figs/s1PreemptionMigration.pdf>]
 
-[17
+[23]
+
+[24])
+
+[25]
+\openout2 = `chapters/chapter4.aux'.
+
+ (./chapters/chapter4.tex
+Chapter 4.
+
+
+[26
+
+
+
+
+]
+
+pdfTeX warning: pdflatex.exe (file ./figs/nonPreemptiveExecution.pdf): PDF incl
+usion: found PDF version <1.6>, but at most version <1.5> allowed
+<figs/nonPreemptiveExecution.pdf, id=1428, 368.91084pt x 114.64702pt>
+File: figs/nonPreemptiveExecution.pdf Graphic file (type pdf)
+<use figs/nonPreemptiveExecution.pdf>
+Package pdftex.def Info: figs/nonPreemptiveExecution.pdf  used on input line 32
+.
+(pdftex.def)             Requested size: 329.07603pt x 102.26817pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/preemptiveExecution.pdf): PDF inclusi
+on: found PDF version <1.6>, but at most version <1.5> allowed
+<figs/preemptiveExecution.pdf, id=1429, 368.55894pt x 114.296pt>
+File: figs/preemptiveExecution.pdf Graphic file (type pdf)
+<use figs/preemptiveExecution.pdf>
+Package pdftex.def Info: figs/preemptiveExecution.pdf  used on input line 37.
+(pdftex.def)             Requested size: 329.07603pt x 102.05795pt.
+
+
+[27]
+
+[28 <./figs/nonPreemptiveExecution.pdf, page is rotated 90 degrees> <./figs/pre
+emptiveExecution.pdf, page is rotated 90 degrees>]
+
+[29]
+
+pdfTeX warning: pdflatex.exe (file ./figs/EDPExample.pdf): PDF inclusion: found
+ PDF version <1.6>, but at most version <1.5> allowed
+<figs/EDPExample.pdf, id=1612, 493.26283pt x 339.1631pt>
+File: figs/EDPExample.pdf Graphic file (type pdf)
+<use figs/EDPExample.pdf>
+Package pdftex.def Info: figs/EDPExample.pdf  used on input line 102.
+(pdftex.def)             Requested size: 329.07603pt x 226.27034pt.
+)
+
+[30 <./figs/EDPExample.pdf, page is rotated 90 degrees>]
+\openout2 = `chapters/chapter5.aux'.
+
+
+(./chapters/chapter5.tex
+Chapter 5.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 1.
+
+
+
+[31
+
+
+
+
+]
+
+pdfTeX warning: pdflatex.exe (file ./figs/P2STG.pdf): PDF inclusion: found PDF 
+version <1.6>, but at most version <1.5> allowed
+<figs/P2STG.pdf, id=1669, 377.11679pt x 234.32945pt>
+File: figs/P2STG.pdf Graphic file (type pdf)
+<use figs/P2STG.pdf>
+Package pdftex.def Info: figs/P2STG.pdf  used on input line 14.
+(pdftex.def)             Requested size: 446.6037pt x 277.5218pt.
+
+
+[32 <./figs/P2STG.pdf>]
+
+[33]
+
+[34]
+
+[35]
+
+pdfTeX warning: pdflatex.exe (file ./figs/jSTG.pdf): PDF inclusion: found PDF v
+ersion <1.6>, but at most version <1.5> allowed
+<figs/jSTG.pdf, id=1790, 323.68156pt x 276.81519pt>
+File: figs/jSTG.pdf Graphic file (type pdf)
+<use figs/jSTG.pdf>
+Package pdftex.def Info: figs/jSTG.pdf  used on input line 149.
+(pdftex.def)             Requested size: 423.09673pt x 361.86179pt.
+
+
+[36]
+
+[37 <./figs/jSTG.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./figs/compilerAssistedSchedulingConcept.pdf
+): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figs/compilerAssistedSchedulingConcept.pdf, id=1940, 526.15872pt x 377.05766pt
+>
+File: figs/compilerAssistedSchedulingConcept.pdf Graphic file (type pdf)
+<use figs/compilerAssistedSchedulingConcept.pdf>
+Package pdftex.def Info: figs/compilerAssistedSchedulingConcept.pdf  used on in
+put line 192.
+(pdftex.def)             Requested size: 376.08997pt x 269.51363pt.
+
+
+[38])
+
+[39 <./figs/compilerAssistedSchedulingConcept.pdf, page is rotated 90 degrees>]
+\openout2 = `chapters/chapter6.aux'.
+
+(./chapters/chapter6.tex
+Chapter 6.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/greedyAndRandomWalk.pdf): PDF inclusi
+on: found PDF version <1.6>, but at most version <1.5> allowed
+<figs/greedyAndRandomWalk.pdf, id=1990, 335.07002pt x 214.83862pt>
+File: figs/greedyAndRandomWalk.pdf Graphic file (type pdf)
+<use figs/greedyAndRandomWalk.pdf>
+Package pdftex.def Info: figs/greedyAndRandomWalk.pdf  used on input line 8.
+(pdftex.def)             Requested size: 423.09673pt x 271.2816pt.
+
+
+[40
 
 
 
 
 ])
 
-[18]
-\openout2 = `chapters/chapter4.aux'.
+[41 <./figs/greedyAndRandomWalk.pdf>]
+\openout2 = `chapters/chapter7.aux'.
 
- (./chapters/chapter4.tex
-Chapter 4.
-)
-
-[19
+ (./chapters/chapter7.tex
+Chapter 7.
 
 
-
-
-]
-\openout2 = `chapters/chapter5.aux'.
-
- (./chapters/chapter5.tex
-Chapter 5.
-)
-
-[20
-
-
-
-
-]
-\openout2 = `chapters/chapter6.aux'.
-
- (./chapters/chapter6.tex
-Chapter 6.
-)
-
-[21
+[42
 
 
 
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 153.
+[43]
 
+[44]
+<figs/inputScreen.png, id=2129, 246.9225pt x 93.34875pt>
+File: figs/inputScreen.png Graphic file (type png)
+<use figs/inputScreen.png>
+Package pdftex.def Info: figs/inputScreen.png  used on input line 85.
+(pdftex.def)             Requested size: 150.43886pt x 56.87285pt.
+<figs/OutputScreen.png, id=2131, 162.00525pt x 164.41425pt>
+File: figs/OutputScreen.png Graphic file (type png)
+<use figs/OutputScreen.png>
+Package pdftex.def Info: figs/OutputScreen.png  used on input line 91.
+(pdftex.def)             Requested size: 112.82913pt x 114.50966pt.
+<figs/blockLogScreen.png, id=2132, 269.808pt x 348.1005pt>
+File: figs/blockLogScreen.png Graphic file (type png)
+<use figs/blockLogScreen.png>
+Package pdftex.def Info: figs/blockLogScreen.png  used on input line 97.
+(pdftex.def)             Requested size: 155.13737pt x 200.16153pt.
+
+
+[45 <./figs/inputScreen.png> <./figs/outputScreen.png> <./figs/blockLogScreen.p
+ng>]
+
+pdfTeX warning: pdflatex.exe (file ./figs/EDPVsBlocks.pdf): PDF inclusion: foun
+d PDF version <1.6>, but at most version <1.5> allowed
+<figs/EDPVsBlocks.pdf, id=2153, 418.63763pt x 359.97685pt>
+File: figs/EDPVsBlocks.pdf Graphic file (type pdf)
+<use figs/EDPVsBlocks.pdf>
+Package pdftex.def Info: figs/EDPVsBlocks.pdf  used on input line 134.
+(pdftex.def)             Requested size: 188.0414pt x 161.69147pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/RTvsBlocks.pdf): PDF inclusion: found
+ PDF version <1.6>, but at most version <1.5> allowed
+<figs/RTVsBlocks.pdf, id=2154, 427.49915pt x 361.24362pt>
+File: figs/RTVsBlocks.pdf Graphic file (type pdf)
+<use figs/RTVsBlocks.pdf>
+Package pdftex.def Info: figs/RTVsBlocks.pdf  used on input line 140.
+(pdftex.def)             Requested size: 188.0414pt x 158.89807pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/BlockEDPVsBlocks.pdf): PDF inclusion:
+ found PDF version <1.6>, but at most version <1.5> allowed
+<figs/BlockEDPVsBlocks.pdf, id=2155, 426.7634pt x 363.98886pt>
+File: figs/BlockEDPVsBlocks.pdf Graphic file (type pdf)
+<use figs/BlockEDPVsBlocks.pdf>
+Package pdftex.def Info: figs/BlockEDPVsBlocks.pdf  used on input line 151.
+(pdftex.def)             Requested size: 188.0414pt x 160.3833pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/BlockRTvsBlocks.pdf): PDF inclusion: 
+found PDF version <1.6>, but at most version <1.5> allowed
+<figs/BlockRTVsBlocks.pdf, id=2156, 445.22675pt x 362.93391pt>
+File: figs/BlockRTVsBlocks.pdf Graphic file (type pdf)
+<use figs/BlockRTVsBlocks.pdf>
+Package pdftex.def Info: figs/BlockRTVsBlocks.pdf  used on input line 157.
+(pdftex.def)             Requested size: 188.0414pt x 153.28404pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/RuntimeVsBlocks.pdf): PDF inclusion: 
+found PDF version <1.6>, but at most version <1.5> allowed
+<figs/RuntimeVsBlocks.pdf, id=2158, 425.38924pt x 368.41739pt>
+File: figs/RuntimeVsBlocks.pdf Graphic file (type pdf)
+<use figs/RuntimeVsBlocks.pdf>
+Package pdftex.def Info: figs/RuntimeVsBlocks.pdf  used on input line 169.
+(pdftex.def)             Requested size: 178.64435pt x 154.72299pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/RuntimeVsPrograms.pdf): PDF inclusion
+: found PDF version <1.6>, but at most version <1.5> allowed
+<figs/RuntimeVsPrograms.pdf, id=2159, 562.02972pt x 426.93503pt>
+File: figs/RuntimeVsPrograms.pdf Graphic file (type pdf)
+<use figs/RuntimeVsPrograms.pdf>
+Package pdftex.def Info: figs/RuntimeVsPrograms.pdf  used on input line 175.
+(pdftex.def)             Requested size: 197.44562pt x 149.98322pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/EDPVsPrograms.pdf): PDF inclusion: fo
+und PDF version <1.6>, but at most version <1.5> allowed
+<figs/EDPVsPrograms.pdf, id=2160, 433.62102pt x 362.40695pt>
+File: figs/EDPVsPrograms.pdf Graphic file (type pdf)
+<use figs/EDPVsPrograms.pdf>
+Package pdftex.def Info: figs/EDPVsPrograms.pdf  used on input line 191.
+(pdftex.def)             Requested size: 188.0414pt x 157.15912pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/RTVsPrograms.pdf): PDF inclusion: fou
+nd PDF version <1.6>, but at most version <1.5> allowed
+<figs/RTVsPrograms.pdf, id=2161, 379.2871pt x 328.11784pt>
+File: figs/RTVsPrograms.pdf Graphic file (type pdf)
+<use figs/RTVsPrograms.pdf>
+Package pdftex.def Info: figs/RTVsPrograms.pdf  used on input line 197.
+(pdftex.def)             Requested size: 178.64435pt x 154.54083pt.
+
+
+[46 <./figs/EDPVsBlocks.pdf> <./figs/RTvsBlocks.pdf>]
+
+[47 <./figs/BlockEDPVsBlocks.pdf> <./figs/BlockRTvsBlocks.pdf> <./figs/RuntimeV
+sBlocks.pdf> <./figs/RuntimeVsPrograms.pdf>])
+
+[48 <./figs/EDPVsPrograms.pdf> <./figs/RTVsPrograms.pdf>]
+\openout2 = `chapters/chapter8.aux'.
+
+
+(./chapters/chapter8.tex
+Chapter 8.
+
+
+[49
+
+
+
+
+])
+
+[50]
+LaTeX Font Info:    Trying to load font information for T2A+pcr on input line 1
+57.
+LaTeX Font Info:    No file T2Apcr.fd. on input line 157.
+
+
+LaTeX Font Warning: Font shape `T2A/pcr/m/n' undefined
+(Font)              using `T2A/cmr/m/n' instead on input line 157.
+
+
+
+[51
+
+
+
+]
+
+[52]
+Overfull \hbox (20.77547pt too wide) in paragraph at lines 157--157
+\T2A/Tempora-TLF/m/sc/14.4 mance,^^Q in \T2A/Tempora-TLF/m/it/14.4 AS-P-LOS IV\
+T2A/Tempora-TLF/m/sc/14.4 , 1991. [On-line]. Avail-able: [][]$\T2A/pcr/m/n/14.4
+ https : / / api . semanticscholar .
+ []
+
+
+
+[53]
+Overfull \hbox (32.55745pt too wide) in paragraph at lines 157--157
+[]\T2A/Tempora-TLF/m/sc/14.4 A. Venkat and D. M. Tullsen, ^^P  Har-ness-ing isa
+ di-ver-sity: De-sign of a heterogeneous-
+ []
+
+
+
+[54]
+Overfull \hbox (21.3195pt too wide) in paragraph at lines 157--157
+[]\T2A/Tempora-TLF/m/sc/14.4 D. Brooks, V. Ti-wari, and M. Martonosi, ^^P  Watt
+ch: A frame-work for architectural-
+ []
+
+
+
+[55]
+
+[56]
 \openout2 = `chapters/appex.aux'.
 
-(./chapters/appex.tex
-Appendix A.
-
-
-[22
-
-
-
-
-]
-Appendix B.
-)
-
-[23
-
-]
-
-Package longtable Warning: Table widths have changed. Rerun LaTeX.
-
-(./thesis.aux (./chapters/abstract.aux) (./chapters/chapter1.aux)
-(./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux)
-(./chapters/chapter5.aux) (./chapters/chapter6.aux) (./chapters/appex.aux))
+ (./chapters/appex.tex) (./thesis.aux (./chapters/abstract.aux)
+(./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux)
+(./chapters/chapter4.aux) (./chapters/chapter5.aux) (./chapters/chapter6.aux)
+(./chapters/chapter7.aux) (./chapters/chapter8.aux) (./chapters/appex.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  8157ED0CDAF3F3950D58239124CAFB23;2084.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                thesis
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 5753A9D6787A250BCD53BA14CF12047E;5599.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29048 strings out of 473599
- 497491 string characters out of 5732716
- 1939908 words of memory out of 5000000
- 51412 multiletter control sequences out of 15000+600000
- 602086 words of font info for 91 fonts, out of 8000000 for 9000
+ 30056 strings out of 473599
+ 523015 string characters out of 5732716
+ 1945908 words of memory out of 5000000
+ 52201 multiletter control sequences out of 15000+600000
+ 628731 words of font info for 143 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,19n,117p,1087b,1840s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,17n,117p,1309b,2357s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/tempora/Tempora-Bold.pfb><c:/t
 exlive/2024/texmf-dist/fonts/type1/public/tempora/Tempora-Italic.pfb><c:/texliv
 e/2024/texmf-dist/fonts/type1/public/tempora/Tempora-Regular.pfb><c:/texlive/20
 24/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/font
 s/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmib10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb><c:/t
-exlive/2024/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on thesis.pdf (22 pages, 330286 bytes).
+ublic/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/
+texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2
+024/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2024/te
+xmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb><c:/texlive/2024/texmf-dist/f
+onts/type1/public/cm-super/sfcc1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1
+/public/cm-super/sfrm1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm
+-super/sfss1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfs
+s1440.pfb>
+Output written on thesis.pdf (56 pages, 3781945 bytes).
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
- 178 compressed objects within 2 object streams
- 57 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2545 PDF objects out of 2984 (max. 8388607)
+ 1527 compressed objects within 16 object streams
+ 192 named destinations out of 1000 (max. 500000)
+ 424 words of extra memory for PDF output out of 10000 (max. 10000000)
 

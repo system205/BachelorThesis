@@ -1,11 +1,27 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces One kernel at $x_s$ (\emph {dotted kernel}) or two kernels at $x_i$ and $x_j$ (\textit {left and right}) lead to the same summed estimate at $x_s$. This shows a figure consisting of different types of lines. Elements of the figure described in the caption should be set in italics, in parentheses, as shown in this sample caption.}}{9}{figure.caption.8}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces One kernel at $x_s$ (\emph {dotted kernel}) or two kernels at $x_i$ and $x_j$ (\textit {left and right}) lead to the same summed estimate at $x_s$. This shows a figure consisting of different types of lines. Elements of the figure described in the caption should be set in italics, in parentheses, as shown in this sample caption.}}{15}{figure.caption.9}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Heterogeneous scheduling: key components}}{10}{figure.caption.4}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Heterogeneous architecture: example with Cortex-A15 and Cortex-A7}}{11}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Graphical notation for Fig.\penalty \@M \ \ref {fig:twoSchedulesExample},\penalty \@M \ \ref {fig:singleProcessorCase},\penalty \@M \ \ref {fig:s1PreemptionMigration}, and\penalty \@M \ \ref {fig:executionMetrics}}}{11}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Sample execution schedules for programs from Table\penalty \@M \ \ref {tab:demandExample} (no migrations and preemptions considered)}}{13}{figure.caption.8}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Single and multi-processor programs execution}}{19}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Programs requirements for a single core}}{20}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Schedule S1 with preemptions and migrations considered}}{22}{figure.caption.11}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Time metrics of an N-blocks program execution}}{28}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Trade-off between response time and energy consumption. An optimal line (Sched. 2 and 3) has better trade-off.}}{30}{figure.caption.16}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The state-transition graph of the program $P_2$ from Table\penalty \@M \ \ref {tab:demandExample}}}{32}{figure.caption.17}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces A joint state-transition graph with schedules from Fig.\penalty \@M \ \ref {fig:twoSchedulesExample}. The case of non-preemptive scheduling.}}{37}{figure.caption.18}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Proposed extension to heterogeneous scheduling}}{39}{figure.caption.19}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Greedy energy consumption and random walk traversals of a joint state-transition graph. Non-preemptive case.}}{41}{figure.caption.20}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Scheduler tool use: screenshots}}{45}{figure.caption.22}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Varying blocks number: greedy, random walk and optimal schedules EDP and response times}}{46}{figure.caption.24}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces EDP and runtime per block vs number of blocks. Continuation of Fig.\penalty \@M \ \ref {fig:varyingBlocks}.}}{47}{figure.caption.25}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Tool runtime dependency of greedy, random walk and optimal schedules}}{47}{figure.caption.26}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces EDP and programs response time dependencies of greedy, random walk and optimal schedules on number of programs}}{48}{figure.caption.28}%
 \addvspace {10\p@ }

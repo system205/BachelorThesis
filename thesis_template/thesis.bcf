@@ -2376,12 +2376,45 @@
     <bcf:datasource type="file" datatype="bibtex">ref.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">A</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">A</bcf:citekey>
-    <bcf:citekey order="2" intorder="2">B</bcf:citekey>
-    <bcf:citekey order="2" intorder="3">C</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">D</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">F</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">Anderson2006</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">Radulescu2000</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">Padoin2015</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">Hennessy2017</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">Ratkovic2015</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">Gepner2006</bcf:citekey>
+    <bcf:citekey order="6" intorder="2">Chai2007</bcf:citekey>
+    <bcf:citekey order="6" intorder="3">Kumar2003</bcf:citekey>
+    <bcf:citekey order="6" intorder="4">Nayfeh1997</bcf:citekey>
+    <bcf:citekey order="6" intorder="5">Geer2005</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">Brodtkorb2010</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">Mogul1991</bcf:citekey>
+    <bcf:citekey order="8" intorder="2">David2007</bcf:citekey>
+    <bcf:citekey order="8" intorder="3">McVoy1996</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">Topcuoglu1999</bcf:citekey>
+    <bcf:citekey order="9" intorder="2">Topcuoglu2002</bcf:citekey>
+    <bcf:citekey order="9" intorder="3">Bittencourt2010</bcf:citekey>
+    <bcf:citekey order="9" intorder="4">Samadi2018</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">Topcuoglu2002</bcf:citekey>
+    <bcf:citekey order="10" intorder="2">Topcuoglu1999</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">Augonnet2009</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">Radulescu1999</bcf:citekey>
+    <bcf:citekey order="12" intorder="2">Radulescu2000</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">Radulescu1999_FCP</bcf:citekey>
+    <bcf:citekey order="13" intorder="2">Radulescu2000</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">Shelepov2009</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">Venkat2014</bcf:citekey>
+    <bcf:citekey order="15" intorder="2">Ratkovic2015</bcf:citekey>
+    <bcf:citekey order="15" intorder="3">Kumar2003</bcf:citekey>
+    <bcf:citekey order="15" intorder="4">Gonzalez1996</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">Joseph2001</bcf:citekey>
+    <bcf:citekey order="16" intorder="2">Brooks2000</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">Li2003</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">Ratkovic2015</bcf:citekey>
+    <bcf:citekey order="18" intorder="2">Gonzalez1996</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">Burmyakov2015</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">Burmyakov2021</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">Burmyakov2022</bcf:citekey>
+    <bcf:citekey order="22" intorder="1" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

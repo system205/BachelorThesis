@@ -1,0 +1,203 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Anderson2006}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=0bce2c20ecce45e04c16d79dad7af832}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={J.H.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e2c1940f795635873db4fb667588fcbd}{%
+           family={Calandrino},
+           familyi={C\bibinitperiod},
+           given={J.M.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8918795c78c98efc9f89b5f9dc9c69a1}{%
+           family={Devi},
+           familyi={D\bibinitperiod},
+           given={U.C.},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd44243400a29526bf6728c9906a844d}
+      \strng{fullhash}{cd44243400a29526bf6728c9906a844d}
+      \strng{fullhashraw}{cd44243400a29526bf6728c9906a844d}
+      \strng{bibnamehash}{cd44243400a29526bf6728c9906a844d}
+      \strng{authorbibnamehash}{cd44243400a29526bf6728c9906a844d}
+      \strng{authornamehash}{cd44243400a29526bf6728c9906a844d}
+      \strng{authorfullhash}{cd44243400a29526bf6728c9906a844d}
+      \strng{authorfullhashraw}{cd44243400a29526bf6728c9906a844d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{12th IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS'06)}
+      \field{title}{Real-Time Scheduling on Multicore Platforms}
+      \field{year}{2006}
+      \field{pages}{179\bibrangedash 190}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/RTAS.2006.35
+      \endverb
+    \endentry
+    \entry{Radulescu2000}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=cbcff7155ad6f0b72fe5ee5b713a9368}{%
+           family={Radulescu},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a2bbf077f31d5fc01e68059b2d059e3d}{%
+           family={Gemund},
+           familyi={G\bibinitperiod},
+           given={A.J.C.},
+           giveni={A\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{acdf8f653677d64b332d8ee9515badae}
+      \strng{fullhash}{acdf8f653677d64b332d8ee9515badae}
+      \strng{fullhashraw}{acdf8f653677d64b332d8ee9515badae}
+      \strng{bibnamehash}{acdf8f653677d64b332d8ee9515badae}
+      \strng{authorbibnamehash}{acdf8f653677d64b332d8ee9515badae}
+      \strng{authornamehash}{acdf8f653677d64b332d8ee9515badae}
+      \strng{authorfullhash}{acdf8f653677d64b332d8ee9515badae}
+      \strng{authorfullhashraw}{acdf8f653677d64b332d8ee9515badae}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings 9th Heterogeneous Computing Workshop (HCW 2000) (Cat. No.PR00556)}
+      \field{title}{Fast and effective task scheduling in heterogeneous systems}
+      \field{year}{2000}
+      \field{pages}{229\bibrangedash 238}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/HCW.2000.843747
+      \endverb
+      \keyw{Costs;Algorithm design and analysis;Processor scheduling;Workstations;High-speed networks;IP networks;Runtime;Genetic algorithms;Minimization methods;Load management}
+    \endentry
+    \entry{Padoin2015}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=b1ecf36c46d66bc4a34d7ccd3b429dbe}{%
+           family={Padoin},
+           familyi={P\bibinitperiod},
+           given={Edson\bibnamedelima Luiz},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=354cc47dab84651faf001ae8ff736251}{%
+           family={Pilla},
+           familyi={P\bibinitperiod},
+           given={Laércio\bibnamedelima Lima},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=a5b1c0ae84571973e464f8913d4bc73a}{%
+           family={Castro},
+           familyi={C\bibinitperiod},
+           given={Márcio},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4db621a44c47dbda4de36b9a2604c304}{%
+           family={Boito},
+           familyi={B\bibinitperiod},
+           given={Francieli\bibnamedelima Z.},
+           giveni={F\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=fdaf2004afe40b981762c51a74e5f1fb}{%
+           family={Alexandre\bibnamedelima Navaux},
+           familyi={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Philippe\bibnamedelima Olivier},
+           giveni={P\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=7cd2132d244b09c0c0b3a0e5c6e2c5a1}{%
+           family={Méhaut},
+           familyi={M\bibinitperiod},
+           given={Jean-François},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{96c4382c039ba0046d7fd05fb225976e}
+      \strng{fullhash}{d932f6e61a5a9866004ac08d7ba99af6}
+      \strng{fullhashraw}{d932f6e61a5a9866004ac08d7ba99af6}
+      \strng{bibnamehash}{d932f6e61a5a9866004ac08d7ba99af6}
+      \strng{authorbibnamehash}{d932f6e61a5a9866004ac08d7ba99af6}
+      \strng{authornamehash}{96c4382c039ba0046d7fd05fb225976e}
+      \strng{authorfullhash}{d932f6e61a5a9866004ac08d7ba99af6}
+      \strng{authorfullhashraw}{d932f6e61a5a9866004ac08d7ba99af6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IET Computers \& Digital Techniques}
+      \field{number}{1}
+      \field{title}{Performance/energy trade-off in scientific computing: the case of ARM big.LITTLE and Intel Sandy Bridge}
+      \field{volume}{9}
+      \field{year}{2015}
+      \field{pages}{27\bibrangedash 35}
+      \range{pages}{9}
+      \verb{doi}
+      \verb https://doi.org/10.1049/iet-cdt.2014.0074
+      \endverb
+      \verb{eprint}
+      \verb https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-cdt.2014.0074
+      \endverb
+      \verb{urlraw}
+      \verb https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/iet-cdt.2014.0074
+      \endverb
+      \verb{url}
+      \verb https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/iet-cdt.2014.0074
+      \endverb
+      \keyw{microcontrollers,power aware computing,power consumption,low-power electronics,performance-energy trade-off,scientific computing,ARM big.LITTLE processors,Intel Sandy Bridge-EP processor,exascale performance,low-power processors,power consumption constraints,energy consumption,data collection,sensors,platform-independent tool,energy data,heterogeneous systems,homogeneous systems,high performance processors,high-performance computing,NAS parallel benchmarks,real-world soil irrigation simulator}
+    \endentry
+    \entry{Hennessy2017}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=4a72d9e0de431dadafab463df2ea7b0f}{%
+           family={Hennessy},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=95486d328725c1c6a933929c9442fe2a}{%
+           family={Patterson},
+           familyi={P\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Francisco, CA, USA}%
+      }
+      \list{publisher}{1}{%
+        {Morgan Kaufmann Publishers Inc.}%
+      }
+      \strng{namehash}{f7c6979c0d2d2afa03b2d508432d429d}
+      \strng{fullhash}{f7c6979c0d2d2afa03b2d508432d429d}
+      \strng{fullhashraw}{f7c6979c0d2d2afa03b2d508432d429d}
+      \strng{bibnamehash}{f7c6979c0d2d2afa03b2d508432d429d}
+      \strng{authorbibnamehash}{f7c6979c0d2d2afa03b2d508432d429d}
+      \strng{authornamehash}{f7c6979c0d2d2afa03b2d508432d429d}
+      \strng{authorfullhash}{f7c6979c0d2d2afa03b2d508432d429d}
+      \strng{authorfullhashraw}{f7c6979c0d2d2afa03b2d508432d429d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6th}
+      \field{isbn}{0128119055}
+      \field{title}{Computer Architecture, Sixth Edition: A Quantitative Approach}
+      \field{year}{2017}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

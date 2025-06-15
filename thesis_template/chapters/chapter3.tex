@@ -1,44 +1,218 @@
-\chapter{Methodology}
-\label{chap:met}
-
-Referencing other chapters \ref{chap:lr}, \ref{chap:met}, \ref{chap:impl}, \ref{chap:eval} and \ref{chap:conclusion}
-\begin{longtable}{c|c}
-\caption[This is the title I want to appear in the List of Tables]{Simulation Parameters} \label{table:thisimulation_params} \\
-\hline
-A & B  \\
-\hline
-\endfirsthead
-\multicolumn{2}{@{}l}{} \\
-\hline
-A & B \\
-\hline
-\endhead
-\hline
- \textbf{Parameter} & \textbf{Value}\\
- \hline
- Number of vehicles & $|\mathcal{V}|$\\
- \hline
- Number of RSUs & $|\mathcal{U}|$\\
- \hline
- RSU coverage radius & 150 m\\
- \hline
- V2V communication radius & 30 m\\
- \hline
- Smart vehicle antenna height & 1.5 m\\
- \hline
- RSU antenna height & 25 m\\
- \hline
- Smart vehicle maximum speed & $v_{max}$ m/s\\
- \hline
- Smart vehicle minimum speed & $v_{min}$ m/s\\
- \hline
- Common smart vehicle cache capacities & $[50, 100, 150, 200, 250]$ mb\\
- \hline
- Common RSU cache capacities & $[5000,1000,1500,2000,2500]$ mb\\
- \hline
- Common backhaul rates & $[75, 100, 150]$ mb/s\\
- \hline
-\end{longtable}
+\chapter{Processor Scheduling Strategies}
+\label{chap:processorSchedulingStrategies}
+We provide the necessary preliminaries for our heterogeneous scheduling analysis. We start with a homogeneous scheduling case with identical processors in Section~\ref{sec:singleProcessor} and~\ref{sec:homogeneousMultiprocessorCase}. Then, we describe the basic heterogeneous scheduling principles in Section~\ref{sec:heterogeneousCase}. We especially focus on various scheduling overheads in regard to these principles in Section~\ref{sec:performanceOverheads}.
 
 
-\ldots
+\section{Single processor case}
+\label{sec:singleProcessor}
+
+\begin{figure*}
+\begin{minipage}{.75\columnwidth}%
+\begin{subfigure}[t]{\linewidth}
+\includegraphics[width=\linewidth]{figs/singleProcessorExecutionExample.pdf}
+\caption{Single processor executing three programs with requirements in Fig.~\ref{fig:singleProcessorExampleRequirements}.}
+\vspace{3mm}
+\label{fig:singleProcessorExecutionExample}
+\end{subfigure}
+\begin{subfigure}[t]{\linewidth}
+%\hspace{21.5mm}
+\includegraphics[width=\linewidth]{figs/DVFSExample.pdf}
+\caption{Program $P_2$ execution with DVFS enabled}
+\vspace{3mm}
+\label{fig:DVFSExample}
+\end{subfigure}
+\begin{subfigure}[t]{\linewidth}
+%\vspace{-65mm}
+\includegraphics[width=\linewidth]{figs/multiprocessorExecutionExample.pdf}
+\caption{Programs execution over 2 ``no DVFS" cores with requirements in Fig.~\ref{fig:singleProcessorExampleRequirements}}
+\vspace{3mm}
+\label{fig:multiprocessorExecutionExample}
+\end{subfigure}
+\end{minipage}
+
+\caption{Single and multi-processor programs execution}
+\label{fig:singleProcessorCase}
+\quad
+\end{figure*}
+
+\begin{figure}
+\centering
+\includegraphics[width=.65\linewidth]{figs/singleProcessorExampleRequirements.pdf}
+\caption{Programs requirements for a single core}
+\label{fig:singleProcessorExampleRequirements}
+\end{figure}
+
+
+%\begin{figure}
+%\centering
+%\includegraphics[width=\columnwidth]{figs/multiprocessorExecutionExample.pdf}
+%\caption{Programs execution over 2 ``fast" cores with requirements in Fig.~\ref{fig:singleProcessorExampleRequirements}}
+%\label{fig:multiprocessorExecutionExample}
+%\end{figure}
+
+Consider an execution schedule of Fig.~\ref{fig:singleProcessorExecutionExample}. Three programs labeled P1, P2 and P3 execute over a same shared single core. Programs execution requirements are listed in Fig.~\ref{fig:singleProcessorExampleRequirements}. The scenario of Fig.~\ref{fig:singleProcessorExecutionExample} assumes programs P1, P2 and P3 to arrive at times $t=0$, $1$ and $3$ correspondingly.
+
+Observe that in the presented execution schedule more than 30\% of its duration is wasted on core overheads due to its transitions between execution and other states. In fact, this is a highly relevant problem for realistic systems, so that it must be carefully accounted when making scheduling decisions.
+
+%Let us focus on the most interesting aspects of this schedule. Observe that programs await for execution for quite a significant time due to the core performance overheads, including core transitions between operational modes and preemptions (66\% of the schedule duration)
+
+%\begin{enumerate}
+%\itemindent=18pt
+%\item[$t=0$:] P1 arrives, while a core is in a sleep mode;
+%\item[$t=1$:] P2 arrives, but the core is not yet waken up;
+%\item[$t=2$:] P1 and P2 do not yet execute, but the core wakens;
+%\item[$t=3$:] P1 executes as the core is awake, while P3 arrives;
+%\item[$t=5$:] P1 is preempted by P2 due to a scheduling policy\footnote{The discussion of various scheduling prioritization policies is later in Section X};
+%\item[$t=8$:] P2 is blocked as the core stalls on a cache miss;
+%\itemindent=23pt
+%\item[$t=10$:] P2 completes, P3 executes and P1 is pending;
+%\end{enumerate}
+
+%Note that sleep/awake core states transition, programs preemption and cache misses impose significant additional overheads. 
+
+Modern cores actually support a varying execution speed due to so-called Dynamic Voltage and Frequency Scaling (DVFS). However, DVFS again imposes additional performance overheads. As an illustration, consider an execution in Fig.~\ref{fig:DVFSExample}, assuming programs requirements for a slower core are listed in Fig.~\ref{fig:singleProcessorExampleRequirements}. Starting from $t=6$, the execution is as following:
+\begin{enumerate}
+\itemindent=18pt
+\item[$t=6$:] Core's frequency decreases;
+\item[$t=7$:] P2 executes;
+\item[$t=9$:] The core stalls (see Fig.~\ref{fig:singleProcessorExecutionExample});
+\itemindent=23pt
+\item[$t=12$:] P2 completes;
+\end{enumerate}
+
+Below we summarize energy consumed for P2 execution. Note that use of DVFS significantly reduced it from 10 to 6 units at moderate performance degradation.
+
+
+
+\section{Homogeneous multiprocessor case}
+\label{sec:homogeneousMultiprocessorCase}
+
+A sample multiprocessor execution~\cite{Gepner2006,Chai2007,Kumar2003, Nayfeh1997, Geer2005} is provided in  Fig.~\ref{fig:multiprocessorExecutionExample}, assuming cores are homogeneous that is they provide same execution speed without DVFS. The figure illustrates the following:
+\begin{enumerate}
+\itemindent=18pt
+\item[$t=0$:] P1 arrives, both cores sleep;
+\item[$t=1$:] P2 arrives;
+\item[$t=2$:] Cores wake up;
+\item[$t=3$:] P1 starts on Core 1, P2 \-- on Core 2, P3 arrives;
+\item[$t=6$:] P3 preempts P1 on Core 1;
+\item[$t=7$:] P2 completes, P1 migrates to Core 2;
+\item[$t=9$:] P3 completes, Core 1 turns down;
+\itemindent=23pt
+\item[$t=10$:] P1 completes, Core 2 turns down;
+\end{enumerate}
+
+Compared to a single processor case, the programs are completed at time 10 instead of 15. Also, a multiprocessor allowed programs to migrate between cores and to execute in a single core mode (from $t=9$ in Fig.~\ref{fig:multiprocessorExecutionExample}) by turning down cores. Although, both migrations and awake/sleep transitions impose additional time overheads.
+
+
+\section{Heterogeneous multiprocessor case}
+\label{sec:heterogeneousCase}
+
+Heterogeneous hardware (HW) contains processing units of different types, such as CPU, GPU, TPU and NPU~\cite{Brodtkorb2010}. Some of them are designed for general-purpose computational tasks, such as single- or multicore Central Processing Units (CPU) used for operating systems management, while others \-- for application-specific tasks, such as Graphic, Tensor or Neural Processing Units (GPU, TPU, NPU) used for Artificial Intelligence training and inference tasks.
+
+Despite significant variation in execution speed and energy consumption, these PUs share common HW organizational principles originally coming from a classical single processor case described in Section~\ref{sec:singleProcessor}. In fact, the major key differences are in the number of cores and supported instruction sets. For example, in Fig.~\ref{fig:bigLITTLEArchitecture} the ``big" cluster provides only four cores, while GPU and NPU provide thousands and hundreds respectively.
+
+\begin{figure*}
+\begin{minipage}{.75\columnwidth}%
+\begin{subfigure}{1.105\linewidth}
+\includegraphics[width=\linewidth]{figs/s1PreemptionMigration.pdf}
+%\vspace{3mm}
+\end{subfigure}
+\caption{Schedule S1 with preemptions and migrations considered}
+\label{fig:s1PreemptionMigration}
+\end{minipage}%
+\quad
+\end{figure*}
+
+
+\subsection*{\textbf{Common execution principles}}
+
+We illustrate a concurrent programs execution upon different PU types, considering preemptions and migrations, in Fig.~\ref{fig:s1PreemptionMigration}, which extends the Schedule S1 of our toy example. The programs execute as following:
+\begin{enumerate}
+\itemindent=14pt
+\item[$t=0$:] P1 starts on Core 1;
+\item[$t=1$:] P2 starts on Core 2;
+\item[$t=4$:] P3 preempts P1;
+\item[$t=5$:] P1 preempts P2;
+\item[$t=6$:] P1 migrates to Core 2;
+\item[$t=7$:] P1 resumes.
+\end{enumerate}
+
+Both preemptions and migrations require a context switch, which is to save the state of a preempted program and load the preemptee's. Such a context switch impose significant performance overhead, which in reality vary from tens to hundreds microseconds \cite{Mogul1991, David2007, McVoy1996}.
+
+%inquiring 0.2-1.7\% of utilization in an average case and up to 10\% in the worst case scenario \todo{put references to percentages}.
+
+
+\section{Scheduling types and overheads}
+\label{sec:heterogeneousScheduling}
+
+In our toy example we assume preemptions and migrations are possible. In reality, this is not always a case. Next, we describe different schedules types as well as summarize time overheads relevant for our analysis.
+%We relax this assumption in Fig.~\ref{fig:executionWithPreemptionMigration} extending the Schedule S1 to consider preemptions and migrations overheads. For simplicity, we assume both preemptions and migrations require 1 time unit. 
+
+\subsection*{\textbf{Scheduling types}}
+\label{sec:schedulingTypes}
+
+We distinguish scheduling types from the preemptiveness and migrativeness perspectives. A program execution is:
+%
+\begin{itemize}
+\item{Preemptive:} it can be preempted by another program;
+\item{Non-preemptive:} once started, it cannot be preempted;
+\item{Migrative:} it can migrate between processing units (PUs);
+\item{Non-migrative:} it is statically assigned to a specific PU.
+\end{itemize}
+
+A preemption might occur either at any time or at a completion time of a program block\footnote{The definition of a program block is to be elaborated later}. For example, in Fig.~\ref{fig:s1PreemptionMigration} preemptions occur at $t=4$ and $5$ after completion of the first blocks of Prog. P1 and P2 correspondingly, while migration \-- at $t=6$ when P1 switched from Core 1 to Core 2.
+
+We note that execution preemptions and migrations on one side provide scheduling flexibility\footnote{The flexibility in programs prioritization policy, different scheduling types and other improves hardware utilization}, but however at additional overhead costs. As an example, consider the execution schedule in Fig.~\ref{fig:s1PreemptionMigration}: Core 2 spends 11 time units for programs execution and 3 for context switches, which is 20\% of its operational time. Anyway, both preemptions and migrations are widely used and incomparable from the performance perspective. Preemptions offer increased processor utilization, while migrations \-- reduced programs execution time. For example, in Fig.~\ref{fig:twoSchedulesExample} Schedule S2 has no migrations and greater total execution time comparing to S1, which has 1 migration. 
+
+%\todo{AB@AM: To rethink either we should limit our analysis scope to a specific scheduling type.} In our analysis we assume the block-level preemptive and migrative scheduling.
+
+\subsection*{\textbf{Performance overheads}}
+\label{sec:performanceOverheads}
+
+Any scheduler imposes various hardware-related execution overheads, which are related to principles discussed in Chapter.~\ref{chap:processorSchedulingStrategies}, such as preemptiveness and migrativeness, cache misses, and other:
+
+\begin{itemize}
+\item Preemptive and migrative programs execution:
+%
+\begin{itemize}
+\itemindent=8pt
+\item[$\delta^{\mathsf{pm}}$\--] preemption overhead;
+\itemindent=12pt
+\item[$\delta^{\mathsf{migr}}$\--] migration overhead.
+\end{itemize}
+
+\item Processing unit mode:
+%
+\begin{itemize}
+\itemindent=37pt
+\item[$\delta^\mathsf{{cpu\_wakeup}}$\--] time overhead related to an operational mode switch;
+\itemindent=31	pt
+\item[$\delta^\mathsf{{cpu\_down}}$\--] time overhead related to a sleep mode switch.
+\end{itemize}
+
+\item Dynamic Voltage and Frequency Scaling (DVFS):
+%
+\begin{itemize}
+\itemindent=18pt
+\item[$\delta^\mathsf{{DVFS}}$\--] time overhead related to the processing frequency adjustment.
+\end{itemize}
+
+\item Cache hits and misses:
+%
+\begin{itemize}
+\itemindent=40pt
+\item[$\delta^\mathsf{{cache\_miss}}$ \--] time overhead related to a cache miss.
+\end{itemize}
+\end{itemize}
+
+\section{Existing heterogeneous schedulers}
+\label{sec:existingSchedulers}
+
+Several heterogeneous schedulers are proposed in the literature, including 
+Heterogeneous Earliest-Finish-Time (HEFT)~\cite{Topcuoglu1999, Topcuoglu2002, Bittencourt2010, Samadi2018},
+Critical-Path-on-a-Processor (CPOP)~\cite{Topcuoglu2002, Topcuoglu1999}, 
+StarPU~\cite{Augonnet2009}, 
+Fast Load Balancing (FLP)~\cite{Radulescu1999, Radulescu2000}, 
+Fast Critical Path (FCP)~\cite{Radulescu1999_FCP, Radulescu2000}, and 
+Heterogeneity-Aware Signature-Supported scheduler (HASS)~\cite{Shelepov2009}. 
+These schedulers are however provide suboptimal solutions based on different heuristics. Some of them employ fixed priority assignments for programs, although without any knowledge about the optimality of those priorities. Other schedulers use greedy time optimization, static cores allocations (also known as partitioned scheduling), and other.
